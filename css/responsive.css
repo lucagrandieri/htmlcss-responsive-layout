@@ -1,6 +1,6 @@
 /* Soluzione qui */
 
-/* Tablet (sopra i 768px */
+/* Tablet (sopra i 768px) */
 
 @media screen and (min-width:768px) {
     #topbar {
@@ -30,7 +30,7 @@
     }
 
     .btn {
-        padding: 10px 50px;
+        padding: 10px 10px;
     }
 
     .ads {
@@ -40,5 +40,43 @@
     p.clearfix img {
         float: left;
         margin-right: 10px;
+    }
+}
+
+/* Desktop (sopra i 922px) */
+
+@media screen and (min-width:922px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    div.quick-notes ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 75%;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    .btn {
+        justify-content: center;
+        width: calc(100% / 5);
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    address {
+        text-align: left;
     }
 }
