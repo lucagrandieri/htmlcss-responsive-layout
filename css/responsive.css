@@ -1,0 +1,44 @@
+/* Soluzione qui */
+
+/* Tablet (sopra i 768px */
+
+@media screen and (min-width:768px) {
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    div.quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 2rem;
+    }
+
+    .quick-notes li {
+        flex-basis: calc(33.33% - 2rem);
+    }
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    p.clearfix img {
+        float: left;
+        margin-right: 10px;
+    }
+}
