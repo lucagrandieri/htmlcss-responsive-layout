@@ -43,9 +43,9 @@
     }
 }
 
-/* Desktop (sopra i 922px) */
+/* Desktop (sopra i 992px) */
 
-@media screen and (min-width:922px) {
+@media screen and (min-width:992px) {
     h2 {
         font-size: 2rem;
     }
@@ -66,7 +66,7 @@
         display: inline;
     }
 
-    .btn {
+    div.social-networks button.btn {
         justify-content: center;
         width: calc(100% / 5);
     }
